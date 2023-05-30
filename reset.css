@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+/* **************** MISE A NIVEAU ***************** */
+html {margin:0;padding:0;width: 100%;height: 100%;}
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, td, blockquote, dl, dt, dd, pre, img {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+input {border:0;}
+fieldset, img, textarea {border:0;}
+ol, ul, dl{list-style:none;}
+h1, h2, h3, h4, h5, h6, h7 {font-size:100%;font-weight:normal;}
+/* **************** STYLES GENERAUX (balises) ***************** */
+a {outline:none;text-decoration:none;}
+.strong {font-weight:bold;}
+.em {font-style:italic;}
+.display_block {display: block ;}
+.display_none {display:none;}
+.nowrap {white-space:nowrap;}
+.display_inline {display:inline ;}
+.display_inline_block {display:inline-block ;}
+.txt_majiscule { text-transform:uppercase ;}
+.underline, a.for_underline:hover {text-decoration:underline;}
+a.underline:hover {text-decoration:none;}
+a.not_unerline { text-decoration:none;} a.not_unerline:hover {text-decoration:underline;}
+/* **************** CLASSES DE MISES EN PAGE ***************** */
+/* ---- alignement ---- */
+.txt-center {text-align:center ;}
+.txt-top {vertical-align:top ;}
+.txt-center_vertical {vertical-align:middle ;}
+.txt-bottom_vertical {vertical-align:bottom ;}
+.float-none {float:none ;}
+.block_center {margin-left:auto ;margin-right:auto ;}
+.clear {clear:both;height:0; font-size:0; line-height: 0; overflow:hidden}
+.clear_both {clear:both;}
+.clear_right {clear:right;}
+.clear_left {clear:left;}
+.overflow_hidden { overflow:hidden;}
+.height100_pourcent{ height:100%;}
+/* ---- textes ---- */
+.txt10 { font-size:10px;} .txt11 { font-size:11px;} .txt12 { font-size:12px;}  .txt13 { font-size:13px;}.txt14 {font-size:14px;} .txt16 {font-size:16px;} .txt18 {font-size:18px;} .txt20 {font-size:20px;} .txt22 {font-size:22px;} .txt24 {font-size:24px;} .txt26 {font-size:26px;} .txt28 {font-size:28px;} .txt30 {font-size:30px;} 
+/* ---- position ---- */
+.relative { position:relative;} .absolute { position:absolute;}
+.line_height16{line-height:16px;} .line_height18{line-height:18px;} .line_height20{line-height:20px;} .line_height22{line-height:22px;} .line_height24{line-height:24px;}
+/*------padding----------*/
+.padding_bottom10{padding-bottom:10px;} .padding_bottom20{padding-bottom:20px;} .padding_bottom30{padding-bottom:30px;} .padding_bottom05{padding-bottom:5px;}
+.padding_left10{padding-left:10px;} .padding_left20{padding-left:20px;} .padding_left25{padding-left:25px;} .padding_left30{padding-left:30px;} .padding_left05{padding-left:5px;}
+.padding_right10{padding-right:10px;} .padding_right20{padding-right:20px;} .padding_right30{padding-right:30px;} .padding_right05{padding-right:5px;}
+.padding_top10{padding-top:10px;} .padding_top20{padding-top:20px;} .padding_top30{padding-top:30px;} .padding_top05{padding-top:5px;}
+/*------margin----------*/
+.margin_bottom10{margin-bottom:10px;} .margin_bottom15{margin-bottom:15px;} .margin_bottom20{margin-bottom:20px;} .margin_bottom30{margin-bottom:30px;} .margin_bottom05{margin-bottom:5px;}
+.margin_left10{margin-left:10px;} .margin_left15{margin-left:15px;} .margin_left20{margin-left:20px; .margin_left25{margin-left:25px;} .margin_left30{margin-left:30px;} .margin_left05{margin-left:5px;}
+.margin_right10{margin-right:10px;} .margin_right20{margin-right:20px;} .margin_right30{margin-right:30px;} .margin_right05{margin-right:5px;}
+.margin_top10{margin-top:10px;} .margin_top20{margin-top:20px;} .margin_top30{margin-top:30px;} .margin_top05{margin-top:5px;} .margin_bottom25 { margin-bottom:25px;}
